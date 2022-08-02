@@ -177,9 +177,10 @@ strided status 2>&1 | jq .SyncInfo
 
 ## Validator Oluşturma
  Aşağıdaki komutta aşağıda berlittiğim yerler dışında bir değişikli yapmanız gerekmez;
-   'identity'  buraya `httpskeybase.io` sitesine üye olarak size verilen kimlik numaranızı yazıyorsunuz.
+   'DicsordUsername#0000' buraya discord kullanıcı adınızı yazınız. Discord'da Validator rolü alabilmeniz için gerekli.
+   'identity'  buraya `https://keybase.io` sitesine üye olarak size verilen kimlik numaranızı yazıyorsunuz.
    'details'  kendiniz hakkında bilgiler verebilir ya da `Rues Community Supporter` yazabilirsiniz.
-   'website'  Varsa bir siteniz yazabilirsiniz ya da `httpsforum.rues.info` olarak bırakabilirsiniz.
+   'website'  Varsa bir siteniz yazabilirsiniz ya da `https://forum.rues.info` olarak bırakabilirsiniz.
    'security-contact'  E-posta adresiniz.
 ```shell 
 rebusd tx staking create-validator \
@@ -190,7 +191,7 @@ rebusd tx staking create-validator \
 --pubkey=$(rebusd  tendermint show-validator) \
 --moniker=$NODENAME \
 --chain-id=$REBUS_CHAIN_ID \
---details="Rues Community Supporter" \
+--details="DicsordUsername#0000" \
 --security-contact=E-POSTANIZ 
 --website=http://forum.rues.info \
 --identity=XXXX1111XXXX1111 \
@@ -200,9 +201,8 @@ rebusd tx staking create-validator \
 --from=$WALLET
  ```  
 
-
 ## Validator Linkinizi Paylaşma
-Sei Discord [#testnet-apply](https://discord.gg/FScWfZqeWC) kanalından validatorumuze ait [explorer](https://stride.explorers.guru) linkini gönderiyoruz.
+Rebus Discord [#testnet-apply](https://discord.gg/FScWfZqeWC) kanalından validatorumuze ait [explorer](https://stride.explorers.guru) linkini gönderiyoruz.
 
 ## DAHA FAZLA SORUNUZ VARSA REBUS TÜRKİYE TELEGRAM GRUBU
 
