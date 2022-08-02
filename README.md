@@ -77,7 +77,7 @@ curl https://raw.githubusercontent.com/rebuschain/rebus.testnet/master/rebus_333
 
 ## Minimum GAS Ücretinin Ayarlanması
 ```shell
-sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0ustrd\"/" $HOME/.rebusd/config/app.toml
+sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0arebus\"/" $HOME/.rebusd/config/app.toml
 ```
 
 ## SEED ve PEERS Ayarlanması
