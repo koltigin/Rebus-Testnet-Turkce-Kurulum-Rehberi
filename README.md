@@ -42,13 +42,13 @@ echo "export REBUS_CHAIN_ID=rebus_3333-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 Düzenlediğiniz dosya aşağıdaki gibi olmalı;
----
+```shell
 echo "export NODENAME=Bilge"  >> $HOME/.bash_profile
 echo "export WALLET=Bilge" >> $HOME/.bash_profile
 echo "export REBUS_PORT=21" >> $HOME/.bash_profile
 echo "export REBUS_CHAIN_ID=rebus_3333-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
----
+```
 
 ## Rebus Kurulumu
 ```shell
