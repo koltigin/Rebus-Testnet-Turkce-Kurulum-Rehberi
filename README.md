@@ -177,7 +177,6 @@ rebusd status 2>&1 | jq .SyncInfo
 
 ## Validator Oluşturma
  Aşağıdaki komutta aşağıda berlittiğim yerler dışında bir değişikli yapmanız gerekmez;
-   'DicsordUsername#0000' buraya discord kullanıcı adınızı yazınız. Discord'da Validator rolü alabilmeniz için gerekli.
    'identity'  buraya `https://keybase.io` sitesine üye olarak size verilen kimlik numaranızı yazıyorsunuz.
    'details'  kendiniz hakkında bilgiler verebilir ya da `Rues Community Supporter` yazabilirsiniz.
    'website'  Varsa bir siteniz yazabilirsiniz ya da `https://forum.rues.info` olarak bırakabilirsiniz.
@@ -191,7 +190,7 @@ rebusd tx staking create-validator \
 --pubkey=$(rebusd  tendermint show-validator) \
 --moniker=$NODENAME \
 --chain-id=$REBUS_CHAIN_ID \
---details="DicsordUsername#0000" \
+--details="Rues Community Supporter" \
 --security-contact=E-POSTANIZ 
 --website=http://forum.rues.info \
 --identity=XXXX1111XXXX1111 \
