@@ -172,7 +172,7 @@ rebusd query bank balances CUZDAN_ADRESINIZ --chain-id $REBUS_CHAIN_ID
 ## Senkronizasyonu Kontrol Etme
 `false` çıktısı almaldıkça bir sonraki yani validator oluşturma adımına geçmiyoruz.
 ```shell
-strided status 2>&1 | jq .SyncInfo
+rebusd status 2>&1 | jq .SyncInfo
 ```
 
 ## Validator Oluşturma
@@ -202,7 +202,7 @@ rebusd tx staking create-validator \
  ```  
 
 ## Validator Linkinizi Paylaşma
-Rebus Discord [#testnet-apply](https://discord.gg/FScWfZqeWC) kanalından validatorumuze ait [explorer](https://stride.explorers.guru) linkini gönderiyoruz.
+Rebus Discord [#testnet-apply](https://discord.gg/FScWfZqeWC) kanalından validatorumuze ait [explorer](https://explorer.kjnodes.com/REBUS/) linkini gönderiyoruz.
 
 ## DAHA FAZLA SORUNUZ VARSA REBUS TÜRKİYE TELEGRAM GRUBU
 
@@ -257,7 +257,7 @@ curl icanhazip.com
 
 ### Peer Adresinizi Öğrenme
 ```shell
-eecho $(strided tendermint show-node-id)@$(curl ifconfig.me):${REBUS_PORT}656
+eecho $(rebusd tendermint show-node-id)@$(curl ifconfig.me):${REBUS_PORT}656
 ```
 
 ### Cüzdanların Listesine Bakma
