@@ -38,7 +38,7 @@ aşağıda değiştirmeniz gereken yerleri yazıyorum.
 echo "export NODENAME=$NODENAME"  >> $HOME/.bash_profile
 echo "export WALLET=$WALLET" >> $HOME/.bash_profile
 echo "export REBUS_PORT=21" >> $HOME/.bash_profile
-echo "export REBUS_CHAIN_ID=rebus_3333-1" >> $HOME/.bash_profile
+echo "export REBUS_CHAIN_ID=reb_3333-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 Düzenlediğiniz dosya aşağıdaki gibi olmalı;
