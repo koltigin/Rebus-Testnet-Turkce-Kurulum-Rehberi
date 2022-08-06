@@ -281,7 +281,7 @@ rebusd query bank balances CUZDAN_ADRESI
 
 ### Bir Cüzdandan Diğer Bir Cüzdana Transfer Yapma
 ```shell
-rebusd tx bank send CUZDAN_ADRESI GONDERILECEK_CUZDAN_ADRESI 100000000ustrd
+rebusd tx bank send CUZDAN_ADRESI GONDERILECEK_CUZDAN_ADRESI 100000000arebus
 ```
 
 ### Proposal Oylamasına Katılma
@@ -296,7 +296,7 @@ rebusd tx staking delegate $VALOPER_ADDRESS 100000000utoi --from=$WALLET --chain
 
 ### Mevcut Validatorden Diğer Validatore Stake Etme  Redelegate Etme
 ```shell
-rebusd tx staking redelegate MevcutValidatorAdresi StakeEdilecekYeniValidatorAdresi 100000000ustrd --from=WALLET --chain-id=$REBUS_CHAIN_ID --gas=auto
+rebusd tx staking redelegate MevcutValidatorAdresi StakeEdilecekYeniValidatorAdresi 100000000arebus --from=WALLET --chain-id=$REBUS_CHAIN_ID --gas=auto
 ```
 
 ### Ödülleri Çekme
