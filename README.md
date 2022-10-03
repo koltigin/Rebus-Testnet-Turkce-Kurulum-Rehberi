@@ -338,22 +338,19 @@ sed -i '/RBS_/d' ~/.bash_profile
 ```
 
 
-### Hesaplar
+# Hesaplar
 
-[Linktree](https://linktr.ee.mehmetkoltigin)
+[Anatolian Team](https://anatolianteam.com)
 
-[Twitter](https://twitter.com.mehmetkoltigin)
+[Twitter](https://twitter.commehmetkoltigin)
 
-### Komunite 
-[Forum Rues](https://forum.rues.infoindex.php)
+[Medium](https://medium.com/@mehmetkoltigin)
 
-[Telegram Rues Announcement](https://t.meRuesAnnouncement)
+[YouTube](https://www.youtube.com/channel/UCmLgaftx5e38BE0E7gpY2dA)
 
-[Telegram Rues Chat](https://t.meRuesChat)
+[Discord](https://discordapp.com/users/837933958280904737)
 
-[Telegram Rues Node](https://t.meRuesNode)
-
-[Telegram Rues Node Chat](https://t.meRuesNodeChat)
+[Telegram](https://t.me/mehmetkoltigin)
 
 
 # Testnetler
